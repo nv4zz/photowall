@@ -14,7 +14,7 @@ class Main extends Component {
     console.log(this.props)
     return <div> 
         <h1> 
-            <Link to="/"> Photowall </Link>
+            <Link to="/"> Niya's Photowall </Link>
         </h1>
         <Route exact path = "/" render={() => (
         <div>
