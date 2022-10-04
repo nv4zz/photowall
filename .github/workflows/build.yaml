@@ -23,5 +23,4 @@ jobs:
       with:
         host: http://localhost:9000
         login: ${{ secrets.SONARQUBE_TOKEN }}
-        projectBaseDir: "src/"
         projectKey: "photowall"
